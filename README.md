@@ -1,3 +1,5 @@
 # gograd
 
-Gograd is a small automatic differentiation framework written in Go.
+![Test](https://github.com/lucaionescu/gograd/workflows/Test/badge.svg)
+
+Gograd is a small automatic differentiation (reverse-mode) framework written in Go.
