@@ -1,0 +1,8 @@
+; https://editorconfig.org/
+
+root = true
+
+[{go.mod,*.go}]
+indent_style = tab
+indent_size = 4
+
