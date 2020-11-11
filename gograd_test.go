@@ -141,3 +141,15 @@ func TestDerivative_2(t *testing.T) {
 		t.Errorf("b.grad == %f, want 4.0", b.grad)
 	}
 }
+
+func TestDerivative_3(t *testing.T) {
+	a := NewVar(4)
+	b := NewVar(3)
+	c := a.Pow(b)
+
+	c.Backward()
+
+	if a.grad != 48.0 {
+		t.Errorf("a.grad == %f, want 11.0", a.grad)
+	}
+}
