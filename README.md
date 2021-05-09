@@ -2,9 +2,9 @@
 
 ![Test](https://github.com/lucaionescu/gograd/workflows/Test/badge.svg)
 
-Gograd is a small automatic differentiation (reverse-mode) framework written in Go.
+Gograd is a small automatic reverse-mode differentiation framework written in Go.
 
-### Example
+## Example
 ```go
 a := NewVar(4)
 b := NewVar(3)
