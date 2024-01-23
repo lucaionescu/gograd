@@ -15,7 +15,7 @@ c.Backward()
 fmt.Println(c.value)
 // prints 28
 
-fmt.Println(a.grad
+fmt.Println(a.grad)
 // prints 11
 
 fmt.Println(b.grad)
